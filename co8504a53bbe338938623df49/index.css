@@ -1,0 +1,37 @@
+body {
+    margin: 0;
+    background: #A78BFA;
+}
+
+.container {
+    display: flex;
+    justify-content: space-around;
+}
+
+.title {
+    font-family: 'Verdana';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 30px;
+    line-height: 30px;
+    /* identical to box height, or 90% */
+    text-align: center;
+    color: #000000;
+}
+
+.score {
+    width: 120px;
+    font-size: 90px;
+    background-color: #000000;
+    color: #A78BFA;
+    text-align: center;
+}
+
+button {
+    background: none;
+}
+
+.newgame {
+    display: flex;
+    justify-content: space-around;
+}
